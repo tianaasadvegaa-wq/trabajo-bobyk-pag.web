@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pagina">
+    <header><img class="header" alt="logo" src="imagenes/foto3.png"></header>
+    <h1 class="titulo">Heladeria Ferran</h1>
+    <img alt="foto de descuento" class="foto-descuento" src="imagenes/foto2.jpg">
+    <h3 class="tentate">Tentate con nuestros sabores</h3>
+    <div class="fotos">
+        
+        <img alt="foto de helado" class="foto-helado" src="imagenes/imagen4.jpg">
+        <img alt="foto de helado" class="foto-helado" src="imagenes/imagen5.jpg">
+        <img alt="foto de helado" class="foto-helado" src="imagenes/imagen6.jpg">
+        <img alt="foto de helado" class="foto-helado" src="imagenes/imagen8.jpg"><br><br>
+    </div>
+    <form class="formulario"> 
+        <label for="nombre">Nombre Y Apellido:</label><br>
+        <input class="input-texto" type="text"><br>
+        <label for="DNI">DNI:</label><br>
+        <input class="input-texto" type="text"><br>
+        <label for="telefono">Telefono:</label><br>
+        <input class="input-texto" type="text"><br>
+        <label for="nacimoento">Fecha de nacimiento</label><br>
+        <input class="fecha" type="date"><br>
+        <label for="mail">Mail:</label><br> 
+        <input class="input-texto" type="text"><br> <br>
+        <label for="text">Qué le gusta de nuestro helado?</label><br>
+        <input type="text" class="input-texto"><br><br>
+        <label for="opciones"></label>
+        <label class="favorito-texto"> Gusto de helado favorito</label>
+        <select class="favorito" name="select">
+            <option value="limon">Limon</option>
+            <option value="chocolate dubai">Chocolate Dubai</option>
+            <option value="frambuesa nevada">Frambuesa Nevada</option>
+            <option value="dulde de leche">Dulce de Leche</option>
+            <option value="frutilla">Frutilla</option>
+            <option value="tiramisu">Tiramisu</option>
+            <option value="chocolte blanco">Chocolate Blanco</option>
+            <option value="vainilla">Vainilla</option>
+            <option value="chcolate amargo">Chocolated Amargo</option>
+            <option value="crema del cielo">Crema del cielo</option>
+            <option value="chocolate crock">Chocolate Crock</option>
+            <option value="cheesecake">Cheesecake</option>
+            <option value="lima">Lima</option>
+            <option value="kinotos al whisky">Kinotos al Whisky</option>
+        </select><br><br>
+
+
+
+        <label>Cuando soles ir a nuestro local por un buen helado? :</label><br>
+        <div class="opcion-radio">
+            <label for="mañana">Mañana</label>
+            <input type="radio" id="mañana" name="horario">
+        </div>
+        <div class="opcion-radio">
+            <label for="tarde">Tarde</label>
+            <input type="radio" id="tarde" name="horario">
+        </div>
+        <div class="opcion-radio">
+            <label for="noche">Noche</label>
+            <input type="radio" id="noche" name="horario">
+        </div>
+        <div class="opcion-radio">
+            <label for="a cualquier hora!">A cualquier hora!</label>
+            <input type="radio" id="a cualquier hora!" name="horario">
+        </div>
+        <br>
+
+        <label>Cuando nos visitas, que preferis pedirte? :</label><br>
+
+        <div class="opcion-radio">
+            <label for="cucurucho">Cucurucho</label>
+            <input type="radio" id="cucurucho" name="que preferis">
+        </div>
+        <div class="opcion-radio">
+            <label for="vaso chico">Vaso chico</label>
+            <input type="radio" id="vaso chico" name="que preferis">
+        </div>
+        <div class="opcion-radio">
+            <label for="vaso mediano">Vaso mediano</label>
+            <input type="radio" id="vaso mediano" name="que preferis">
+        </div>
+        <div class="opcion-radio">
+            <label for="1/4">1/4</label>
+            <input type="radio" id="1/4" name="que preferis">
+        </div>
+        <div class="opcion-radio">
+            <label for="1/2">1/2</label>
+            <input type="radio" id="1/2" name="que preferis">
+        </div>
+        <div class="opcion-radio">
+            <label for="1Kg!">1Kg!</label>
+            <input type="radio" id="1Kg!" name="que preferis">
+        </div>
+        <br><br>
+
+       
+
+        <label> Te gustaria que sumemos algo? </label><br>
+        <div class="cuadrados">
+            <div>
+                <label>Si!</label>
+                <input type="checkbox"><br>
+            </div>
+            <div>
+                <label>No, asi estamos bien!</label>
+                <input type="checkbox"><br>
+            </div>
+            <div>
+                <label>Sorprendeme!</label></label>
+                <input type="checkbox"><br><br>
+            </div>
+        </div>
+
+        
+      
+        <div class="terminos">
+            <label  for="enviar">Acepta los terminos y condiciones?</label>
+            <input  type="checkbox" id="enviar">
+        </div>
+        <input type="reset" value="Resetear el formulario" class="resetear" ></label>
+        <input class="enviar" type="submit" value="Enviar">
+
+    </form>
+
+
+    
+</body>
+</html>

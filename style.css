@@ -1,0 +1,160 @@
+.titulo {
+  
+    font-size: 55px;
+    font-weight: 700;
+    color: #0284c7;
+    
+}
+
+.pagina{
+    background-color: rgb(127, 206, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+.logo {
+    height: 120px
+}
+
+
+
+.foto-descuento {
+    width: 60%;
+    height: auto;
+    border-radius: 16px;
+    margin-bottom: 40px;
+   
+}
+
+.header{
+    background-color: rgb(253, 225, 191);
+    width: 30%;
+    padding: 10px;
+    height: 60%;
+}
+
+.formulario {
+    background-color: #f1ebeb;
+    width: 600px;
+    margin: 0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.resetear{
+    margin-bottom: 5px;
+}
+
+.tentate{
+    font-size: 56px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.foto-helado {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 3px solid #35baf3;
+}
+
+
+.resetear {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+
+
+}
+
+.resetear {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+
+
+}
+.enviar {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 1px;
+
+
+}
+
+.cuadrados {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+ 
+}
+
+.terminos {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-texto{
+
+    width: 100%;
+    padding-bottom: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.fecha {
+
+    
+    width: 100%;
+    padding-bottom: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+   
+}
+
+.favorito {
+    width: 100%;
+    padding-bottom: 8px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+
+}
+
+.favorito-texto {
+    margin-bottom: 10px;
+}
